@@ -1,0 +1,9 @@
+databricks_config:
+  catalog: doan
+  schema: bakehouse_text2sql
+  warehouse_id: 862f1d757f0424f7
+sql_generation_agent_config: 
+  llm_endpoint_name: doan-o3
+  llm_parameters:
+    max_tokens: 1500
+    temperature: 0.0

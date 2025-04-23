@@ -1,0 +1,5 @@
+unitycatalog-ai[databricks]
+unitycatalog-langchain[databricks]
+databricks-langchain
+databricks-sdk==0.50.0
+mlflow
