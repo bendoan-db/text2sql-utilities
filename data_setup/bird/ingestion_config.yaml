@@ -1,0 +1,9 @@
+databricks_config:
+  catalog: doan_bird_sql
+  eval_schema: eval
+  metadata_schema: default
+  volume_path: /Volumes/doan_bird_sql/default/dev/
+  db_subset: financial,debit_card_specializing
+ingestion_exception_config:
+  failed_write_schema: default
+  failed_write_table: failed_table_writes

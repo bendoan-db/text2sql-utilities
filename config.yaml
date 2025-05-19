@@ -1,7 +1,9 @@
 databricks_config:
-  catalog: doan
-  schema: bakehouse_text2sql
+  catalog: doan_bird_sql
+  eval_schema: eval
+  metadata_schema: default
   warehouse_id: 862f1d757f0424f7
+  db_subset: financial,debit_card_specializing
 sql_generation_agent_config: 
   llm_endpoint_name: doan-o3
   llm_parameters:
